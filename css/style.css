@@ -14,7 +14,7 @@ h3,
 h4,
 h5, 
 h6 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 600;
     font-style: italic;
     color: #121518;
@@ -28,7 +28,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #aa9166;
+    color: #C60074 ;
     outline: none;
     text-decoration: none;
 }
@@ -48,7 +48,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #aa9166;
+    background: #C60074;
     color: #121518;
     width: 44px;
     height: 44px;
@@ -62,7 +62,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #aa9166;
+    color: #94FE08;
     background: #121518;
 }
 
@@ -88,7 +88,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color: #C60074;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
@@ -154,7 +154,7 @@ a:focus {
 }
 
 .top-bar .social a:hover {
-    color: #aa9166;
+    color: #94FE08;
     background: #ffffff;
 }
 
@@ -208,7 +208,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #aa9166;
+    color: #94FE08;
     transition: none;
 }
 
@@ -221,12 +221,14 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
     border-radius: 0;
 }
 
 .nav-bar .btn:hover {
-    background: #aa9166;
+    color: #C60074;
+    background: #94FE08;
+    border: 2px solid #94FE08;
 }
 
 @media (min-width: 992px) {
@@ -341,16 +343,17 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #C60074;
     background: #121518;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
-    color: #121518;
-    background: #aa9166;
+    color: #C60074;
+    background: #94FE08;
+    border: 2px solid #94FE08;
 }
 
 @media (max-width: 767.98px) {
@@ -403,7 +406,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .page-header h2 {
@@ -489,8 +492,8 @@ a:focus {
     left: 0;
     top: 21px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    border-top: 1px solid #C60074;
+    border-bottom: 1px solid #C60074;
     z-index: -1;
 }
 
@@ -502,8 +505,8 @@ a:focus {
     left: 0;
     bottom: 20px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    border-top: 1px solid #C60074;
+    border-bottom: 1px solid #C60074;
     z-index: -1;
 }
 
@@ -564,7 +567,7 @@ a:focus {
 }
 
 .feature-top .feature-item i {
-    color: #aa9166;
+    color: #C60074;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -620,8 +623,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #C60074;
+    border: 2px solid #C60074;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -629,7 +632,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 @media (max-width: 767.98px) {
@@ -672,8 +675,8 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #aa9166;
-    background: #121518;
+    color: #C60074;
+    background: #94FE08;
     transition: .5s;
 }
 
@@ -686,7 +689,7 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: #aa9166;
+    color: #C60074;
 }
 
 .service .service-item p {
@@ -704,8 +707,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #C60074;
+    border: 2px solid #C60074;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -713,7 +716,7 @@ a:focus {
 
 .service .service-item:hover a.btn {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 
@@ -745,8 +748,8 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #aa9166;
-    background: #000000;
+    color: #C60074;
+    background: #94FE08;
     transition: .5s;
 }
 
@@ -769,7 +772,7 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .feature .feature-item p {
@@ -822,7 +825,7 @@ a:focus {
 .team .team-text h2 {
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color: #C60074;
 }
 
 .team .team-text p {
@@ -839,7 +842,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #aa9166;
+    background: #C60074;
     font-size: 0;
     transition: .5s;
 }
@@ -901,13 +904,13 @@ a:focus {
     padding-top: 15px;
     border: none;
     border-radius: 0;
-    border-top: 1px solid #aa9166;
+    border-top: 1px solid #C60074;
 }
 
 .faqs .card:last-child {
     margin-bottom: 0;
     padding-bottom: 15px;
-    border-bottom: 1px solid #aa9166;
+    border-bottom: 1px solid #C60074;
 }
 
 .faqs .card-header {
@@ -931,7 +934,7 @@ a:focus {
     margin-right: 10px;
     text-align: center;
     background: #121518;
-    color: #aa9166;
+    color: #C60074;
     font-weight: 700;
 }
 
@@ -970,8 +973,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #C60074;
+    border: 2px solid #C60074;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -979,7 +982,7 @@ a:focus {
 
 .faqs a.btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 
@@ -1025,7 +1028,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item h2 {
-    color: #aa9166;
+    color: #C60074;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1049,7 +1052,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .testimonial .owl-dot.active {
@@ -1124,7 +1127,7 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #C60074;
     transition: .3s;
 }
 
@@ -1148,7 +1151,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .blog .owl-dot.active {
@@ -1158,13 +1161,13 @@ a:focus {
 .blog .pagination .page-link {
     color: #121518;
     border-radius: 0;
-    border-color: #aa9166;
+    border-color: #C60074;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1208,7 +1211,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background: #C60074;
     z-index: 1;
 }
 
@@ -1227,7 +1230,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background: #C60074;
     z-index: 1;
 }
 
@@ -1250,18 +1253,18 @@ a:focus {
     padding: 30px;
     background: #121518;
     position: relative;
-    border-right: 5px solid #aa9166;
+    border-right: 5px solid #C60074;
 }
 
 .timeline .timeline-container.right .timeline-content {
-    border-left: 5px solid #aa9166;
+    border-left: 5px solid #C60074;
 }
 
 .timeline .timeline-container .timeline-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color: #C60074;
 }
 
 .timeline .timeline-container .timeline-content h2 span {
@@ -1269,7 +1272,7 @@ a:focus {
     margin-right: 15px;
     padding: 5px 10px;
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -1308,7 +1311,7 @@ a:focus {
     
     .timeline .timeline-container.left .timeline-content,
     .timeline .timeline-container.right .timeline-content {
-        border-left: 5px solid #aa9166;
+        border-left: 5px solid #C60074;
         border-right: none;
     }
 }
@@ -1337,19 +1340,19 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #aa9166;
+    color: #C60074;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
     background: #121518;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
     transition: .3s;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #aa9166;
+    background: #C60074;
     color: #121518;
 }
 
@@ -1365,7 +1368,7 @@ a:focus {
 
 .portfolio .load-more .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 .portfolio .portfolio-item {
@@ -1425,7 +1428,7 @@ a:focus {
 
 .portfolio figure a {
     font-family: 'EB Garamond', serif;
-    color: #aa9166;
+    color: #C60074;
     font-size: 25px;
     font-weight: 600;
     font-style: italic;
@@ -1468,7 +1471,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
 }
 
 .contact .contact-item i {
@@ -1479,8 +1482,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #C60074;
+    border: 2px solid #C60074;
 }
 
 .contact .contact-text {
@@ -1490,7 +1493,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #aa9166;
+    color: #C60074;
     font-size: 25px;
     font-weight: 600;
 }
@@ -1530,16 +1533,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #C60074;
     background: #121518;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 
@@ -1591,7 +1594,7 @@ a:focus {
     max-width: 900px;
     margin: 45px auto -140px auto;
     padding: 30px 15px;
-    background: #aa9166;
+    background: #C60074;
     z-index: 1;
 }
 
@@ -1625,16 +1628,16 @@ a:focus {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #aa9166;
+    color: #C60074;
     background: #121518;
     border-radius: 0;
-    border: 2px solid #aa9166;
+    border: 2px solid #C60074;
     transition: .3s;
 }
 
 .newsletter .btn:hover {
     color: #121518;
-    background: #aa9166;
+    background: #C60074;
 }
 
 
@@ -1664,7 +1667,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 600;
-    color: #aa9166;
+    color: #C60074;
 }
 
 .footer .footer-link a {
@@ -1683,7 +1686,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #aa9166;
+    color: #C60074;
     letter-spacing: 1px;
 }
 
@@ -1703,7 +1706,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 18px;
-    color: #aa9166;
+    color: #C60074;
 }
 
 .footer .footer-social a:last-child i {
@@ -1731,7 +1734,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a:hover {
-    color: #aa9166;
+    color: #C60074;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -1755,7 +1758,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #aa9166;
+    color: #C60074;
     font-weight: 500;
     letter-spacing: 1px;
 }
