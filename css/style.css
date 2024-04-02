@@ -105,7 +105,7 @@ a:focus {
 
 .top-bar .logo img {
     max-width: 100%;
-    max-height: 60px;
+    max-height: 70px;
 }
 
 .top-bar .top-bar-right {
@@ -169,7 +169,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .top-bar {
-        padding: 0 60px;
+        padding: 0 40px;
     }
 }
 
