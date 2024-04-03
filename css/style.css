@@ -1466,7 +1466,7 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 5% 15px 5%;
 }
 
 .contact .contact-info {
@@ -1488,7 +1488,7 @@ a:focus {
 }
 
 .contact .contact-item i {
-    display: inline-block;
+    display: relative;
     width: 60px;
     height: 60px;
     display: flex;
@@ -1498,6 +1498,11 @@ a:focus {
     color: #C60074;
     border: 2px solid #C60074;
 }
+
+.inline-h4 {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 
 .contact .contact-text {
     position: relative;
