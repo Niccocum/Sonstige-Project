@@ -1672,11 +1672,16 @@ a:focus {
     color: #ffffff;
 }
 
+.container-footer {
+    padding-left: 15%;
+}
+
 .footer .footer-about,
 .footer .footer-link,
 .footer .footer-contact {
     position: relative;
     margin-bottom: 45px;
+    padding-left: 20%;
     color: #999999;
 }
 
@@ -1708,6 +1713,12 @@ a:focus {
 .footer .footer-link a:hover {
     color: #94FE08;
     letter-spacing: 1px;
+}
+
+.footer-about img {
+    max-width: 100%;
+    max-height: 2lm;
+
 }
 
 .footer .footer-contact p i {
