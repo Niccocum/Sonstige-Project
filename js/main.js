@@ -115,7 +115,8 @@
     
         // Push candidate name to the dataLayer
         dataLayer.push({
-            candidateName
+            event:"view candidate",
+            name: candidateName
         });
     
         // Log the updated dataLayer
@@ -128,6 +129,25 @@
         link.addEventListener("click", viewCandidate);
     });
     
+
+    // Newsletter Subscription JS
+    document.addEventListener("DOMContentLoaded", function() {
+        const emailForm = document.getElementById("emailForm");
+        const emailInput = document.getElementById("mail");
+    
+        emailForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+    
+            // Do something with the email address, such as sending it to a server
+            const emailAddress = emailInput.value;
+            console.log("Submitted email address:", emailAddress);
+    
+            // Clear the input field
+            emailInput.value = "";
+        });
+    });
+    
+
 })(jQuery);
 
 
