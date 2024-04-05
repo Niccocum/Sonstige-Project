@@ -14,6 +14,7 @@
         return false;
     });
     
+   
     
     // Sticky Navbar
     $(window).scroll(function () {
@@ -101,6 +102,32 @@
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+    //DataLayer
+    window.dataLayer = window.dataLayer || [];
+
+    const ClickCandidateButtons = document.querySelectorAll(".blog-item .btn");
+
+    // Function to handle button click event
+    const viewCandidate = (event) => {
+        // Get the candidate name from the nearest h3 element
+        const candidateName = event.target.parentNode.querySelector("h3").textContent;
+    
+        // Push candidate name to the dataLayer
+        dataLayer.push({
+            candidateName
+        });
+    
+        // Log the updated dataLayer
+        console.log(dataLayer);
+
+    };
+    
+    // Attach click event listener to all selected buttons
+    ClickCandidateButtons.forEach((link) => {
+        link.addEventListener("click", viewCandidate);
+    });
     
 })(jQuery);
+
 
