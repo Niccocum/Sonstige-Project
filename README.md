@@ -30,7 +30,7 @@ We chose to create a website for a fictional political party, developed by us, w
 
 ## How to see it?
 
-1. Clone the repository: `git clone https://github.com/yourusername/projectname.git`
+1. Clone the repository
 2. Open the index.html file in your web browser to view the website.
 3. Explore the website and interact with the implemented technologies.
 
