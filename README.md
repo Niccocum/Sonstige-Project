@@ -9,7 +9,7 @@ This project serves as the culmination of our Marketing Analytics Bootcamp. Our 
 ## Technologies Used
 
 - HTML, CSS, JavaScript: Used to build the website's frontend.
-- Hotjar: Integrated for website heatmaps, session recordings, and feedback polls.
+- Hotjar: Integrated for website heatmap and session recordings.
 - Google Tag Manager (GTM): Implemented for managing and deploying marketing tags on the website and track conversions.
 - Google Analytics: Utilized for tracking website traffic and user interactions.
 - BigQuery: Employed for querying datasets via SQL.
