@@ -18,7 +18,7 @@ This project serves as the culmination of our Marketing Analytics Bootcamp. Our 
 
 ## Project Details
 
-We chose to create a website for a fictional political party, developed by us, which required an online presence to support its political endeavors. The primary objective of the website was to drive newsletter subscriptions, serving as the macrogoal for the project. Additionally, we aimed to analyze the data gathered from newsletter subscriptions to gain insights into the average user/voter.
+We chose to create a website for a fictional satirical political party, developed by us, which required an online presence to support its political endeavors. The primary objective of the website was to drive newsletter subscriptions, serving as the macrogoal for the project. Additionally, we aimed to analyze the data gathered from newsletter subscriptions to gain insights into the average user/voter.
 
 ## Folder Structure
 
@@ -26,7 +26,7 @@ We chose to create a website for a fictional political party, developed by us, w
 - /js: Contains JavaScript files for website interactivity.
 - /img: Contains image files used on the website.
 - /data: Contains datasets used for analysis.
-- add presentation?
+- /pdf. Presentation
 
 ## How to see it?
 
