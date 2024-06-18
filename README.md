@@ -1,9 +1,9 @@
 # Sonstige-Project - Marketing Analytics Bootcamp Final Project
+![Preview of Sonstige Website](./img/Sonstige-Project.png)
 
 Welcome to our Marketing Analytics Bootcamp final project!
 
 Website of the project can be found [here](https://sonstige.netlify.app)
-
 ## Overview
 
 This project serves as the culmination of our Marketing Analytics Bootcamp. Our task was to create a website using the fundamentals of web development (HTML, CSS, and JavaScript) and then integrate various technologies learned during the bootcamp to track user behaviour, conversions, interactions and of course gathering data.
